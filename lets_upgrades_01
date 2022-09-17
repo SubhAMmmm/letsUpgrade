@@ -1,0 +1,11 @@
+#PERCENTILE
+import numpy as np
+arry = np.array([4,6,8,10,12])
+percentile = np.percentile(arry, 50)
+print("The percentile is:",percentile)
+
+#MEAN
+import statistics
+data1 = [1, 3, 4, 5, 7, 9, 2] 
+x = statistics.mean(data1)
+print("Mean is :", x)
